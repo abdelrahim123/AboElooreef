@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+	   <!--TO Support Many Language Include Arabic Language-->
+        <meta charset="utf-8"/>
+	   
+	   <!--For Internet Explorer-->
+	    <meta http-equiv="X-UA-	Compatible"content="IE=edge">
+	   
+	   <!--First mobilw meta-->
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	   
+        <meta name="description"content="mt company">
+        <title>Nave 1</title>
+        <!--call bootstrap-->
+	    <link rel="stylesheet"href="css/bootstrap.css"/>
+        <!--Page Style-->	   
+        <link rel="stylesheet"href="css/s.css"/>
+	   
+	   <!--Internet Explorer-->
+	    <script src="js/html5shiv.min.js"></script>
+	   	<script src="js/respond.min.js"></script>
+	   <!---->
+	</head>
+	<body>
+		
+		
+		
+		
+		<script src="js/jQuery 3.3.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/e.js"></script>
+	</body>
+
+
+</html>
