@@ -1088,4 +1088,151 @@ section
 {
     font-size: 27px
 }
+/*
+_____________________________________________________________________________________
+  *---------------Dashboard Start----------------*
+_____________________________________________________________________________________
+*/
+.dashBody
+{
+    color: #FFF
+}
+.dashboardNav ul li i
+{
+    color: #FFF;
+    font-size: 20px ; 
+    cursor: pointer;
+    margin-right: 5px
+}
+.dashBody h1 , .dashBody h2
+{
+    color: #FFF ; 
+}
+.DashboardPage
+{
+    display: flex;
+    justify-content: flex-start;
+}
+.DashboardPage .dashLeftHeader
+{
+    width: 20%;
+    background-color: #1b2a47 ; 
+    display: flex ; 
+    flex-direction: column ; 
+    align-items: center ; 
+    padding-top: 90px;
+    height: 795px;
+    display: none
+}
+.DashboardPage .dashLeftHeader .icons span
+{
+    margin-right: 5px ;
+    border-right: 1px solid #000;
+    padding-right: 20px ; 
+    padding-left: 20px
+    
+    
+}
+.DashboardPage .dashLeftHeader .icons span i
+{
+    color: #FFF ;
 
+}
+.DashboardPage .DashRightHeader
+{
+    width: 100% 
+}
+.dashboardNav
+{
+    background-color: #1b2a47;
+    padding: 20px;
+    
+}
+
+.dashName
+{
+    margin-top: 50px;
+    width: 100% ; 
+    display: flex ; 
+    justify-content: center ;
+    flex-wrap: wrap;
+    
+}
+.dashName .h4
+{
+     background-color: #1b2a47 ; 
+     width: 95%;
+     padding: 20px;
+     display: flex;
+    flex-wrap: wrap;
+     justify-content: space-between
+    
+}
+.dashName .h4 button , .but
+{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.dashName h4
+{
+    color: #FFF;
+}
+
+.RentersTable
+{
+    margin-bottom: 15px;
+    width: 95% ; 
+    display: flex ; 
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #1b2a47 ;
+    padding: 30px ; 
+    overflow-x: auto
+}
+.fa-check
+{
+    color:greenyellow
+}
+.fa-times
+{
+    color: #F00
+}
+.fa-trash,.fa-user-edit
+{
+    color: #FFF ;
+    cursor: pointer
+}
+table
+{
+    margin-left: 50px;
+}
+.RentersTable td , .RentersTable th
+{
+    padding-right:180px;
+    padding-bottom: 20px ; 
+    padding-top: 20px ;
+}
+
+.RentersTable tr
+{
+    border-bottom: 1px solid #000
+}
+.lastTr
+{
+    border-bottom: none !important
+}
+.RentersTable .input
+{
+    background-color: #152036;
+    background-image: none;
+    border: 1px solid #152036;
+    border-radius: 1px;
+    color: inherit;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    margin-bottom: 15px
+    
+}
