@@ -18,13 +18,13 @@
         <link rel="stylesheet"href="css/main.css"/>
        <link rel="stylesheet"href="css/about.css"/>
        <link rel="stylesheet" type="text/css" href="css/responsive.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet">
 	   <!--Internet Explorer-->
 	    <script src="js/html5shiv.min.js"></script>
 	   	<script src="js/respond.min.js"></script>
 	   <!---->
 	</head>
-	<body>
+	<body dir="rtl">
         
     <header class="header">
 		<div class="header_content">
@@ -46,23 +46,38 @@
 						</div>
 					</a>
 				</div>
+                
 			</div>
+            
 			<div class="container">
 				<div class="row">
 					<div class="col">
 						<div class="header_inner d-flex flex-row align-items-center justify-content-start">
+							<a href="reg.html" class="button_container header_button ml-auto">
+                                <div class="button text-center">
+                                    <span>تــسجــيل الــدخـول</span>
+                                </div>
+                            </a>                            
 							<nav class="main_nav">
 								<ul class="d-flex flex-row align-items-center justify-content-start">
-									<li class="active"><a href="index.html"><div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>home</span></div></a></li>
-									<li><a href="#about"><div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>about us</span></div></a></li>
-									<li><a href="#services"><div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>Services</span></div></a></li>
-									<li><a href="#contact"><div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>contact</span></div></a></li>
-                                    <li><a href="#pay"><div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>Pay Rent</span></div></a></li>
+                                    <li><a href="#pay"><div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>سدد ايجارك</span></div></a></li>
+									<li><a href="#contact"><div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>تواصل معنا</span></div></a></li>
+									<li>
+                                       <div class="dropdown">
+                                          <a style="color: #FFF ; padding-top: 50px">خدماتنا</a>
+                                          <div class="dropdown-content">
+                                          <a href="#">للمستأجر</a>
+                                          <a href="#">للمالك</a>
+                                        
+                                          </div>
+                                        </div>
+                                    </li>
+									<li><a href="#about"><div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>من نحن</span></div></a></li>                    
+									<li class="active"><a href="index.html"><div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>الرئيسية</span></div></a></li>
+
 								</ul>
 							</nav>
-							<a href="reg.html" class="button_container header_button ml-auto"><div class="button text-center"><span>Get Start</span></div></a>
-							
-							<div class="header_review"><a href="#review">Add your review</a></div>
+
 						</div>
 					</div>
 				</div>
@@ -87,7 +102,7 @@
 				<div class="text-center">
                     <div class="home_subtitle">Trust</div>
                     <div class="home_title">Amazing Services & Facilities</div>
-                    <a href="reg.html" class="button_container home_button"><div class="button text-center"><span>Get Start</span></div></a>
+                    <a href="reg.html" class="button_container home_button"><div class="button text-center"><span>تــسجــيل الــدخـول</span></div></a>
 				</div>   
                 
             
@@ -99,12 +114,15 @@
         <!--Payment Section-->
         
         <div class="container" id="pay">
-            <div class="mainPayment">
+            <div dir="rtl" class="mainPayment">
                 <form>
-                    <div><input class="PayInput" type="text"placeholder="Your Name"></div>
-                    <div><input class="PayInput" type="text"placeholder="Your Card Number"></div>
-                    <div><input class="PayInput" type="text"placeholder="Owner Id"></div>
-                    <div><input type="submit"value="Pay"></div>
+                    
+                    <div><input class="PayInput" type="text"placeholder="الاسم"></div> 
+                    <div><input class="PayInput" type="text"placeholder="كود المالك"></div>
+                    <div><input class="PayInput" type="text"placeholder="رقم التليفون"></div>
+                    <div><input type="submit"value="ادفــع"></div>
+                    
+                    
                 </form>
             
             
@@ -114,15 +132,15 @@
         </div>
         
                 <!--About Us Section-->
-        <section class="aboutSection" id="about">
+        <section dir="ltr" class="aboutSection" id="about">
             <div class="AboutSection"></div>
              <div class="container">
-                 <div class="main">
+                 <div  class="main">
                      <div class="content">
-                        <p>About Us</p>
-                        <h1 style="color:#000">Welcom To Trust</h1>
-                        <p style="margin-bottom: 30px"><span>Abo_Elooreef</span> is platform lets you manage your residential units and collect rent easily.If You want this you should sign in our WebSite and we will mange this for you</p> 
-                        <a href="login.html" class="activeButton">Get Start</a>
+                        <h1 style="text-align: right ; margin-right: 10px ; ">من نحن ؟؟</h1>
+                        <p style="margin-bottom: 30px ; font-size: 16px"><span>ترست</span> هي منصة تتيح لك إدارة الوحدات السكنية الخاصة بك وجمع الإيجار بسهولة. إذا كنت تريد ذلك ، فيجب عليك تسجيل الدخول إلى موقع الويب الخاص بنا وسنقوم بادارته لك                  
+                         </p> 
+                        <a href="login.html" class="activeButton">الــــبــدء</a>
                      </div> 
                     <div class="Img"> <img class="img-responsive img-rounded"src="img/about_01.jpg"></div>
                  </div>
@@ -134,16 +152,16 @@
         <section class="servicesSection"id="services">
             <div class="container">
                 <div class="section-title">
-                    <h2>Our Services</h2>
-                    <p>We Provide more than one service for you in collecting rents from renter</p>
+                    <h2>خدماتنا</h2>
+                    <p style="font-size: 19px">نحن نوفر لك اكثر من خدمة للحصول على الايجار من المستأجر وادارة جميع وحداتك السكنيه بسهوله </p>
                 </div>
                 <div class="mainServices">
                     <div>
                     <div class="allCardContent">
                             <img src="img/p1.jpeg">
                             <div class="CardContent">
-                                <h2>payment deadline</h2>
-                                <p>don't worry about Rent payment date because We will manage it instead of you</p>
+                                <h5>تذكير المستأجرين بميعاد الدفع</h5>
+                                <p>مش هتسيل هم انك تفكر المستأجرين بميعاد الدفع لان احنا هنسهل عليك انك تفكر المستأجرين كل شهر</p>
                             </div>
                         </div>
                     </div>
@@ -151,8 +169,8 @@
                         <div class="allCardContent">
                             <img src="img/p3.jpeg">
                                 <div class="CardContent">
-                                    <h2>payment reports</h2>
-                                    <p>By knowing the behavior and reports of the renter in the old months</p>
+                                    <h5>تقارير منفصلة بالدفع</h5>
+                                    <p>هنوفر عليك انك تعرف سلوك وتقارير المستاجر في الاشهر القديمه</p>
                                 </div>
                         </div>
                     </div>
@@ -160,8 +178,8 @@
                         <div class="allCardContent">
                             <img src="img/p2.jpeg">
                             <div class="CardContent">
-                                <h2>collecting rent</h2>
-                                <p>We provides more than one way for you to get your rents as easy as you can</p>
+                                <h5>توفير اكثر من وسيلة لتحصيل الايجار</h5>
+                                <p>هنوفرلك اكثر من وسيله تقدر تحصل بيها ايجارك من المستأجر </p>
                             </div>
                         </div>
                     </div>                    
@@ -173,8 +191,8 @@
     <section class="contact-area section-padding" data-stellar-background-ratio="0.6">
          <!------ contact ways Section -------->
         <div class="section-title">
-            <h2>Say hello to us!</h2>
-            <p>Feel Free To Contact Us Anytime</p>
+            <h2>مرحبا بك</h2>
+            <p>يمكنك التحدث معنا فى اى وقت</p>
         </div>
         <section class="ContacyWaySection"id="contact">
             <div class="container">
@@ -184,8 +202,8 @@
                     <div class="allCardContent">
                         <i class="icon icon-location2"></i>
                             <div class="CardContent text-center">
-                                <h1 class="H1">Headquarters </h1>
-                                <p>Egypt , Assuit City , Yousry Ragheb Street </p>
+                                <h1 class="H1">المقر الرئيسي</h1>
+                                <p>مصر - اسيوط - شارع يسرى راغب</p>
                             </div>
                         </div>
                     </div>
@@ -193,7 +211,7 @@
                         <div class="allCardContent">
                             <i class="icon icon-location2"></i>
                                 <div class="CardContent text-center">
-                                    <h1 class="H1">Emails</h1>
+                                    <h1 class="H1">ايميل</h1>
                                     <p>info@yoursite.com </p>
                                     <p>info@yoursite.com </p>
                                 </div>
@@ -203,7 +221,7 @@
                         <div class="allCardContent">
                             <i class="icon icon-location2"></i>
                             <div class="CardContent text-center">
-                                <h1 class="H1">Call US</h2>
+                                <h1 class="H1">اتصل بنا</h1>
                                 <p>+61 3 8376 6284 </p>
                                 <p>+61 3 8376 6284 </p>
                             </div>
@@ -220,17 +238,17 @@
                         <form id="contact-form" method="post" enctype="multipart/form-data">
                             <div class="">
                                 <div class="form-group col-md-12">
-                                    <input type="text" name="name" class="form-control" id="first-name" placeholder="Name" required="required">
+                                    <input type="text" name="name" class="form-control" id="first-name" placeholder="الأسم" required="required">
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <input type="email" name="email" class="form-control" id="email" placeholder="Email" required="required">
+                                    <input type="email" name="email" class="form-control" id="email" placeholder="الايميل" required="required">
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <textarea rows="6" name="message" class="form-control" id="description" placeholder="Your Message" required="required"></textarea>
+                                    <textarea rows="6" name="message" class="form-control" id="description" placeholder="رسالتك" required="required"></textarea>
                                 </div>
                                 <div class="col-md-12 text-center">
                                     <div class="actions">
-                                        <input type="submit" value="send message" name="submit" id="submitButton" class="btn btn-lg btn-contact-bg" title="Submit Your Message!">
+                                        <input type="submit" value="ارسال الرساله" name="submit" id="submitButton" class="btn btn-lg btn-contact-bg" title="Submit Your Message!">
                                     </div>
                                 </div>
                             </div>

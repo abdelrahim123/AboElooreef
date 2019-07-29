@@ -12,7 +12,11 @@
     padding-top: 30px ; 
     color: #999;
     margin-bottom: 4px;
-    padding-bottom: 30px
+    padding-bottom: 30px ;
+    -webkit-box-shadow:2px 2px 10px #333;
+    -moz-box-shadow:2px 2px 10px #333;
+    -o-box-shadow:2px 2px 10px #333;
+    box-shadow:2px 2px 10px #333
 }
 .Img
 {
@@ -25,7 +29,6 @@
     width:500px ; 
     margin-left: 10px;
     font-size: 16px ;
-   font-family: 'Ubuntu', sans-serif;
     letter-spacing: 1px; 
     margin-right: 30px
 }
@@ -70,4 +73,6 @@ span
     display: block;
     max-width: 100%;
     height: auto;
+    box-shadow: 2px 2px 10px #333 , -2px -2px 10px #333;
+
 }
